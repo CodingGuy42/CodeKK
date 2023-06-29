@@ -64,6 +64,7 @@
 .menuicon{
     width: 90% ;
     height: 40px;
+
    
 }
 
@@ -101,7 +102,7 @@ body{
 }
 
 .trending{
-    background-color: aqua;
+    background-color: rgb(49, 171, 171);
     width: 60%;
     right: 0;
     position: absolute;
