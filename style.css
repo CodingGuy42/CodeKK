@@ -1,13 +1,64 @@
-/*LOGO*/
-/* Dropdown Button */
+
+
 .search{
     z-index: 999;
-    width: 250px;
-    position: absolute;
-    right: 0;
+    width: 90px;
+    right: 160px;
+   position: absolute;
+   text-align: left;
+   
 }
+
+
+form {
+    background-color: #8f96dd;
+    width: 250px;
+    height: 51px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+   
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 185px;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+  .button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    right: 10px;
+    position: relative;
+  
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+/* Dropdown Button */
 .dropbtn {
-    background-color:rgb(221, 238, 241);
+    background-color:rgb(23, 186, 214);
     color: white;
     padding: 10px;
     font-size: 16px;
@@ -15,11 +66,13 @@
     width: 20px;
     position: relative;
    z-index: 999;
-    min-width: 40px!important;
-    max-width: 40px!important;
-    top: 0;
+    min-width: 55px!important;
+    max-width: 55px!important;
     border-radius: 10px;
-    height: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0;
+    height: 51px;
+
 }
   
   /* The container <div> - needed to position the dropdown content */
@@ -27,8 +80,8 @@
     position: relative;
     display: inline-block;
     width: 50px;
-   
-    height: 55px;
+    
+    height: 57px;
    top: 0;
 }
   
@@ -64,10 +117,11 @@
 .menuicon{
     width: 90% ;
     height: 40px;
-
-   
+   top: -4px;
+   right: .5px;
+position: relative;
 }
-
+/*LOGO*/
 .title{
    background-color:rgb(245, 245, 233);
     position: absolute;
@@ -83,19 +137,22 @@ z-index: 998;
 body{
     margin: 0;
     background-color: rgb(245, 245, 233);
-    
+    top: px;
+    position: relative;
 }
 .stocktickers{
     background-color: red;
-    height: 100px;
+    height: 120px;
     margin: auto;
+    top: -9px;
+    position: relative;
 }
 
 .topperformers{
     background-color: purple;
     width: 40%;
     height: 300px;
-    top: 0;
+    top: -9px;
     position: relative;
     margin: 0;
     left: 0;
@@ -106,53 +163,16 @@ body{
     width: 60%;
     right: 0;
     position: absolute;
-    top: 139px;
+    top: 152px;
     height: 300px;
 }
 
 .totd{
     background-color: green;
-    position: absolute;
+    position: relative;
     margin: auto;
     height: 50px;
     width: 100%;
+    top: -9px;
 }
 
-form {
-    background-color: #4654e1;
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  input {
-    all: unset;
-    font: 16px system-ui;
-    color: #fff;
-    height: 100%;
-    width: 185px;
-    padding: 6px 10px;
-  }
-
-  ::placeholder {
-    color: #fff;
-    opacity: 0.7; 
-  }
-
-  button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
-  
-  svg {
-    color: #fff;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }
